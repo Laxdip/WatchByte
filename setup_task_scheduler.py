@@ -1,17 +1,6 @@
 """
 ================================================================================
   Task Scheduler Setup — Security Monitor Auto-Start at Login
-  
-  Run this script ONCE as Administrator to register the security monitor
-  as a Task Scheduler task. After that, it will start automatically every
-  time you log into Windows — no manual launch needed.
-
-  Usage:
-      Right-click → "Run as administrator"  (required for Task Scheduler)
-      python setup_task_scheduler.py
-
-  To remove the task later:
-      python setup_task_scheduler.py --remove
 ================================================================================
 """
 
