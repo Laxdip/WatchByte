@@ -6,12 +6,10 @@ A Windows activity monitor that logs every program launched, folder accessed, an
 
 ## What It Captures
 
-| Event | Details |
-|---|---|
-| **Program Launched** | Name of every new process started |
-| **Folder Accessed** | Every folder navigated in File Explorer |
-| **File Opened** | Every file opened (via Windows Recent Items) |
-| **Screenshots** | One screenshot taken per event automatically |
+- **Program Launched** – Name of every new process started
+- **Folder Accessed** – Every folder navigated in File Explorer
+- **File Opened** – Every file opened (via Windows Recent Items)
+- **Screenshots** – One screenshot taken per event automatically
 
 All events are saved to `activity_log.txt` with timestamps. Screenshots go into a `screenshots/` folder.
 
