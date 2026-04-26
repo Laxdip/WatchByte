@@ -1,23 +1,6 @@
 """
 ================================================================================
   Windows Live Activity Security Monitor
-  Author: Claude
-  Description: Monitors file explorer navigation, file opens, and program
-               launches in real time AFTER the script starts. Logs all events
-               to activity_log.txt and takes a screenshot for every event.
-  Requirements: pip install psutil pywin32 Pillow
-
-  BUG FIXES (logic unchanged):
-    1. Removed redundant pythoncom.CoInitialize() call inside _resolve_lnk()
-       — it was already initialized on the explorer thread, causing RPC errors.
-    2. Fixed ImageGrab.grab() — removed all_screens=True which is unsupported
-       on older Pillow versions and silently fails; falls back gracefully.
-    3. Added log rotation — activity_log.txt is capped at ~10 MB to prevent
-       unbounded growth during long monitoring sessions.
-    4. Replaced bare except:pass blocks with except Exception as e + proper
-       per-thread error logging so failures are visible, not silently swallowed.
-    5. _monitor_processes now has its own exception reporting so thread death
-       is visible in the log.
 ================================================================================
 """
 
