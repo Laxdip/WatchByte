@@ -87,7 +87,6 @@ start /b "" pythonw.exe security_monitor.py
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "WindowsLiveService" /t REG_SZ /d "pythonw.exe C:\path\to\security_monitor.py"
 ```
 > **Bottom line:** Complete invisibility requires rootkit techniques. This is a monitoring tool, not malware. Use only on systems you own or have permission to monitor.
-```
 ---
 
 ## Requirements
