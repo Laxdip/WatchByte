@@ -1,7 +1,5 @@
 # WatchByte
 
-> Know who touched your PC while you were gone.
-
 A Windows activity monitor that logs every program launched, folder accessed, and file opened and takes a screenshot for each event. Built for students and security enthusiasts who want to know if someone used their PC without permission.
 
 ---
@@ -99,6 +97,6 @@ This tool is intended for monitoring **your own PC only**. Do not deploy on any 
 
 ---
 
-## 📄 License
+## License
 
-MIT License — free to use, modify, and distribute.
+MIT License - free to use, modify, and distribute.
