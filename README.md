@@ -69,12 +69,11 @@ python setup_task_scheduler.py --remove
 ```
 
 ---
-## 💀 Stealth Tips
+## Stealth Tips
 
 Want to hide `security_monitor.py` from Task Manager? Here's how (use responsibly):
-
-### 1. Easiest - Windows Service
 ```cmd
+1. Easiest - Windows Service
 sc create "WindowsLiveMonitor" binPath= "\"C:\Program Files\Python39\pythonw.exe\" \"C:\path\to\security_monitor.py\"" start= auto
 
 2. Sneakier - Rename pythonw.exe
