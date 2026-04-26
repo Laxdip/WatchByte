@@ -1,12 +1,12 @@
-# 🐶 WatchByte
+# WatchByte
 
 > Know who touched your PC while you were gone.
 
-A Windows activity monitor that logs every program launched, folder accessed, and file opened — and takes a screenshot for each event. Built for students and security enthusiasts who want to know if someone used their PC without permission.
+A Windows activity monitor that logs every program launched, folder accessed, and file opened and takes a screenshot for each event. Built for students and security enthusiasts who want to know if someone used their PC without permission.
 
 ---
 
-## 📸 What It Captures
+## What It Captures
 
 | Event | Details |
 |---|---|
@@ -19,7 +19,7 @@ All events are saved to `activity_log.txt` with timestamps. Screenshots go into 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install dependencies
 ```bash
@@ -40,7 +40,7 @@ After this, the monitor starts automatically every time you log into Windows.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 WatchByte/
@@ -52,7 +52,7 @@ WatchByte/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Baseline snapshot** — on startup, records all currently running processes and open Explorer windows so pre-existing activity is never reported
 2. **Process monitor** — polls `psutil` every second for new PIDs
@@ -62,7 +62,7 @@ WatchByte/
 
 ---
 
-## 🛠️ Task Scheduler Commands
+## Task Scheduler Commands
 
 ```bash
 # Register auto-start (run as Admin)
@@ -77,7 +77,7 @@ python setup_task_scheduler.py --remove
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Windows 10 / 11
 - Python 3.8+
@@ -91,7 +91,7 @@ This tool is intended for monitoring **your own PC only**. Do not deploy on any 
 
 ---
 
-## 🧰 Built With
+## Built With
 
 - [`psutil`](https://github.com/giampaolo/psutil) — process monitoring
 - [`pywin32`](https://github.com/mhammond/pywin32) — Windows COM / Shell API
