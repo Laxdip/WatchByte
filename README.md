@@ -19,14 +19,13 @@ All events are saved to `activity_log.txt` with timestamps. Screenshots go into 
 
 ## Quick Start
 ```
-
-### 1. Install dependencies
+1. Install dependencies
 pip install psutil pywin32 Pillow
 
-### 2. Run manually
+2. Run manually
 python security_monitor.py
 
-### 3. Auto-start at login (recommended)
+3. Auto-start at login (recommended)
 Run **once** as Administrator:
 python setup_task_scheduler.py
 ```
