@@ -18,27 +18,23 @@ All events are saved to `activity_log.txt` with timestamps. Screenshots go into 
 ---
 
 ## Quick Start
+```
 
 ### 1. Install dependencies
-```bash
 pip install psutil pywin32 Pillow
-```
 
 ### 2. Run manually
-```bash
 python security_monitor.py
-```
 
 ### 3. Auto-start at login (recommended)
 Run **once** as Administrator:
-```bash
 python setup_task_scheduler.py
 ```
 After this, the monitor starts automatically every time you log into Windows.
 
 ---
 
-## Project Structure
+## Structure
 
 ```
 WatchByte/
