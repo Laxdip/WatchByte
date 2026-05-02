@@ -84,12 +84,7 @@ reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "WindowsLiveServic
 ---
 
 ## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Antivirus flags script | Add folder to exclusions |
-| "Access denied" errors | Run as Administrator |
-| No screenshots captured | Check Pillow installation |
+`Antivirus flags` → Add exclusion | `Access denied` → Run as Admin | `No screenshots` → Reinstall Pillow
 
 ---
 
