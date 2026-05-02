@@ -83,6 +83,16 @@ reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "WindowsLiveServic
 
 ---
 
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Antivirus flags script | Add folder to exclusions |
+| "Access denied" errors | Run as Administrator |
+| No screenshots captured | Check Pillow installation |
+
+---
+
 ## ⚠️ Ethical Notice
 
 This tool is intended for monitoring **your own PC only**. Do not deploy on any device you do not own or without the explicit consent of the user. Unauthorized surveillance is illegal.
