@@ -31,18 +31,6 @@ After this, the monitor starts automatically every time you log into Windows.
 
 ---
 
-## Structure
-
-```
-WatchByte/
-├── security_monitor.py       # Main monitor — logs events + screenshots
-├── setup_task_scheduler.py   # Registers auto-start at login via Task Scheduler
-├── activity_log.txt          # Generated at runtime
-└── screenshots/              # Generated at runtime
-```
-
----
-
 ## How It Works
 
 1. **Baseline snapshot** — on startup, records all currently running processes and open Explorer windows so pre-existing activity is never reported
