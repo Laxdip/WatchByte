@@ -98,7 +98,7 @@ This tool is intended for monitoring **your own PC only**. Do not deploy on any 
 
 - [`psutil`](https://github.com/giampaolo/psutil) — process monitoring
 - [`pywin32`](https://github.com/mhammond/pywin32) — Windows COM / Shell API
-- [`Pillow`](https://python-pillow.org/) — screenshots
+- [`Pillow`](https://python-pillow.org/) — screenshots 
 
 ---
 
